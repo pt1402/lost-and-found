@@ -261,7 +261,12 @@ export default function ItemDetails() {
                     <p className="text-xs text-gray-500 mb-3">
                         Contact our support team if you have questions about the claim process.
                     </p>
-                    <button className="text-blue-600 text-xs font-bold hover:underline">Get Support →</button>
+                    <button 
+                        onClick={() => window.location.href = 'mailto:prathameshtandale724@gmail.com'}
+                        className="text-blue-600 text-xs font-bold hover:underline"
+                    >
+                        Get Support →
+                    </button>
                 </div>
             </div>
         </div>
